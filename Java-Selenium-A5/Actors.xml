@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="Pan India"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="org.GroupExecutionClasses.AlluArjun" />
+			<class name="org.GroupExecutionClasses.Vicky" />
+			<class name="org.GroupExecutionClasses.Yash" />
+			<class name="org.GroupExecutionClasses.MaheshBabu" />
+			<class name="org.GroupExecutionClasses.SRK" />
+			<class name="org.GroupExecutionClasses.Puneeth" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.generic_utilities.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.testScripts.RegisterInDWS">
+        <methods>
+          <include name="register"/>
+          <include name="tearDownBrowser"/>
+          <include name="launchAndMaximizeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- org.testScripts.RegisterInDWS -->
+      <class name="org.testScripts.AddAProductToCart">
+        <methods>
+          <include name="addingProductToCart"/>
+          <include name="tearDownBrowser"/>
+          <include name="launchAndMaximizeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- org.testScripts.AddAProductToCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
