@@ -10,6 +10,5 @@ public class LocatingAccessoriesInSuzuki {
 		driver.manage().window().maximize();
 		driver.get("https://www.suzukimotorcycle.co.in/");
 		driver.findElement(By.partialLinkText("ACCESSORIES")).click();
-		"input[value=\"Log in\"]"
 	}
 }
